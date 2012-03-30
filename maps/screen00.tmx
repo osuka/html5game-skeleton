@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="40" tilewidth="40" tileheight="40">
+ <tileset firstgid="1" name="lostgarden-PAVE" tilewidth="40" tileheight="40">
+  <image source="../tiles/lostgarden-PAVE.png" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="193" name="lostgarden-GRS2ROC" tilewidth="40" tileheight="40">
+  <image source="../tiles/lostgarden-GRS2ROC.png" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="385" name="lostgarden-VILFLR" tilewidth="40" tileheight="40">
+  <image source="../tiles/lostgarden-VILFLR.png" width="640" height="480"/>
+ </tileset>
+ <tileset firstgid="577" name="lostgarden-rock-01" tilewidth="29" tileheight="57">
+  <properties>
+   <property name="bottom" value="2"/>
+   <property name="left" value="2"/>
+   <property name="right" value="2"/>
+   <property name="top" value="28"/>
+  </properties>
+  <image source="../tiles/lostgarden-rock-01.png" width="29" height="57"/>
+ </tileset>
+ <tileset firstgid="578" name="lostgarden-rock-02" tilewidth="40" tileheight="31">
+  <properties>
+   <property name="top" value="10"/>
+  </properties>
+  <image source="../tiles/lostgarden-rock-02.png" width="40" height="31"/>
+ </tileset>
+ <tileset firstgid="579" name="lostgarden-tree-01" tilewidth="68" tileheight="108">
+  <properties>
+   <property name="bottom" value="5"/>
+   <property name="left" value="10"/>
+   <property name="right" value="10"/>
+   <property name="top" value="50"/>
+  </properties>
+  <image source="../tiles/lostgarden-tree-01.png" width="68" height="108"/>
+  <tile id="0">
+   <properties>
+    <property name="bottom" value="4"/>
+    <property name="left" value="10"/>
+    <property name="right" value="10"/>
+    <property name="top" value="50"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="580" name="lostgarden-tree-02" tilewidth="110" tileheight="97">
+  <properties>
+   <property name="bottom" value="5"/>
+   <property name="left" value="30"/>
+   <property name="right" value="30"/>
+   <property name="top" value="32"/>
+  </properties>
+  <image source="../tiles/lostgarden-tree-02.png" width="110" height="97"/>
+ </tileset>
+ <tileset firstgid="581" name="pokemon-arbolgordo" tilewidth="32" tileheight="36">
+  <properties>
+   <property name="left" value="3"/>
+   <property name="right" value="3"/>
+   <property name="top" value="10"/>
+  </properties>
+  <image source="../tiles/pokemon-arbolgordo.png" width="32" height="36"/>
+ </tileset>
+ <tileset firstgid="582" name="pokemon-arbolpeque" tilewidth="16" tileheight="30">
+  <properties>
+   <property name="left" value="1"/>
+   <property name="right" value="1"/>
+   <property name="top" value="6"/>
+  </properties>
+  <image source="../tiles/pokemon-arbolpeque.png" width="16" height="30"/>
+ </tileset>
+ <tileset firstgid="583" name="pokemon-bluebuilding" tilewidth="144" tileheight="96">
+  <image source="../tiles/pokemon-bluebuilding.png" width="144" height="96"/>
+ </tileset>
+ <tileset firstgid="584" name="pokemon-graybuilding" tilewidth="112" tileheight="79">
+  <image source="../tiles/pokemon-graybuilding.png" width="112" height="79"/>
+ </tileset>
+ <tileset firstgid="585" name="pokemon-pointybuilding" tilewidth="112" tileheight="240">
+  <image source="../tiles/pokemon-pointybuilding.png" width="112" height="240"/>
+ </tileset>
+ <tileset firstgid="586" name="pokemon-redbuilding" tilewidth="112" tileheight="104">
+  <properties>
+   <property name="top" value="56"/>
+  </properties>
+  <image source="../tiles/pokemon-redbuilding.png" width="112" height="104"/>
+ </tileset>
+ <tileset firstgid="587" name="pokemon-darkground160x160" tilewidth="40" tileheight="40">
+  <image source="../tiles/pokemon-darkground160x160.png" width="160" height="160"/>
+ </tileset>
+ <layer name="suelo" width="20" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt0ksKgzAQgOFJKFI8ifQE3iFd9mRFJOcrpeQYJjjgGJ0kU7rrLP5FnPAZHyMAjNjdrjm7XSvl7BY3T15osFo9J/ACHD16D+q9Ym+mD1ohM7nSHmsALtgtNsSuuO7M3quZaf4kXk+sbzxvVo/LY2fvkfNSE2kmTZn3aPR85sxmP6Ne6xlLJn1eiXeW5HtIvZpVc6VnK/2Xv3A0TdM0TfuvFlY9FRM=
+  </data>
+ </layer>
+ <objectgroup name="tierra" width="20" height="40">
+  <object gid="580" x="187" y="640">
+   <properties>
+    <property name="bottom" value="10"/>
+    <property name="left" value="10"/>
+    <property name="right" value="10"/>
+    <property name="top" value="10"/>
+   </properties>
+  </object>
+  <object gid="580" x="266" y="503"/>
+  <object gid="580" x="189" y="330"/>
+  <object gid="578" x="493" y="391"/>
+  <object gid="578" x="644" y="461"/>
+  <object gid="577" x="574" y="483"/>
+  <object gid="577" x="607" y="502"/>
+  <object gid="580" x="545" y="285">
+   <properties>
+    <property name="bottom" value="10"/>
+    <property name="left" value="10"/>
+    <property name="right" value="10"/>
+    <property name="top" value="10"/>
+   </properties>
+  </object>
+  <object name="lostgarden-rock-01" type="staticrectangle" gid="577" x="140" y="571">
+   <properties>
+    <property name="bottom" value="2"/>
+    <property name="left" value="5"/>
+    <property name="right" value="5"/>
+    <property name="top" value="15"/>
+   </properties>
+  </object>
+  <object gid="580" x="410" y="597">
+   <properties>
+    <property name="bottom" value="10"/>
+    <property name="left" value="10"/>
+    <property name="right" value="10"/>
+    <property name="top" value="10"/>
+   </properties>
+  </object>
+  <object gid="580" x="125" y="400"/>
+  <object gid="579" x="138" y="269"/>
+  <object gid="578" x="361" y="869"/>
+  <object name="lostgarden-rock-01" type="staticrectangle" gid="577" x="46" y="437">
+   <properties>
+    <property name="bottom" value="2"/>
+    <property name="left" value="5"/>
+    <property name="right" value="5"/>
+    <property name="top" value="16"/>
+   </properties>
+  </object>
+  <object name="lostgarden-rock-01" type="staticrectangle" gid="577" x="46" y="437">
+   <properties>
+    <property name="bottom" value="2"/>
+    <property name="left" value="5"/>
+    <property name="right" value="5"/>
+    <property name="top" value="16"/>
+   </properties>
+  </object>
+  <object gid="586" x="142" y="758"/>
+  <object gid="585" x="384" y="849"/>
+  <object gid="579" x="-1" y="107"/>
+ </objectgroup>
+ <objectgroup name="limites" width="20" height="40"/>
+ <objectgroup name="cielo" width="20" height="40"/>
+</map>
